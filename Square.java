@@ -15,5 +15,9 @@ public class Square implements Shape {
   public double perimeter() {
     return 4 * side;
   }
+
+  public String type() {
+    return ("square");
+  }
 }
  

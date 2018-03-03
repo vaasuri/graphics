@@ -15,5 +15,9 @@ public class Circle implements Shape {
   public double perimeter() {
     return 2 * 3.14 * radius;
   }
+
+  public String type() {
+    return ("circle");
+  }
 }
  

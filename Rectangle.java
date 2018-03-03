@@ -17,5 +17,9 @@ public class Rectangle implements Shape {
   public double perimeter() {
     return 2 * (length + width);
   }
+
+  public String type() {
+    return ("rectangle");
+  }
 }
  
